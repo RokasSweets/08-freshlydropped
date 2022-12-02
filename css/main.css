@@ -1,0 +1,56 @@
+:root {
+    --main-color: #4d7a26;
+    --secondary-color: #ffd642;
+}
+
+body {
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+}
+
+.logo {
+    float: left;
+    height: 25px;
+}
+
+.main-header {
+    display: inline-block;
+    margin-top: 25px;
+    width: 1000px;
+}
+
+.main-header > nav > a {
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: tahoma;
+    margin-left: 1em;
+    padding: 15px;
+    display: inline-block;
+    line-height: 0.1em;
+    transition: all 0.5s;
+}
+
+.main-nav {
+    float: right;
+    margin-top: -3px;
+}
+
+.main-nav > a:last-child {
+    margin-right: 0px;
+    background-color: var(--main-color);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.main-nav > a:last-child:hover {
+    background-color: var(--secondary-color);
+    color: black;
+}
+.main-nav > a:hover {
+    background-color: var(--main-color);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
