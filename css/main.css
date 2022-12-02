@@ -1,6 +1,7 @@
 :root {
     --main-color: #4d7a26;
     --secondary-color: #ffd642;
+    font-family: tahoma;
 }
 
 body {
@@ -23,7 +24,6 @@ body {
     color: black;
     font-size: 13px;
     text-decoration: none;
-    font-family: tahoma;
     margin-left: 1em;
     padding: 15px;
     display: inline-block;
@@ -53,4 +53,107 @@ body {
     color: white;
     padding: 15px;
     border-radius: 10px;
+}
+
+.left-section {
+    margin-top: 80px;
+    float: left;
+    width: 450px;
+    height: 800px;
+}
+
+.right-section {
+    margin-top: 80px;
+    float: right;
+    width: 450px;
+    height: 800px;
+}
+
+.left-dish {
+    background-color: var(--main-color);
+    width: 48%;
+    height: 350px;
+    float: left;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+
+.right-dish {
+    background-color: var(--main-color);
+    width: 48%;
+    height: 350px;
+    float: right;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+
+.dish {
+    margin-top: -90px;
+    margin-left: 17px;
+}
+
+.dish-title {
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+
+.dish-description {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.section-title {
+    margin-top: 30px;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+
+.right-content {
+    width: 400px;
+    height: 243px;
+    align-items: center;
+    margin-left: 32px;
+}
+
+.right-content > p {
+    margin-bottom: 40px;
+}
+
+.recipe-button {
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-left: 55px;
+    transition: all 0.3s;
+}
+
+.recipe-button:hover {
+    box-shadow: 0px 4px 10px 2px #aaaa;
+}
+
+.button-free-trial {
+    background-color: var(--main-color);
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.button-free-trial:hover {
+    background-color: var(--secondary-color);
+    color: black;
 }
