@@ -71,7 +71,7 @@ body {
 
 .left-dish {
     background-color: var(--main-color);
-    width: 48%;
+    width: 215px;
     height: 350px;
     float: left;
     margin-bottom: 10px;
@@ -81,7 +81,7 @@ body {
 
 .right-dish {
     background-color: var(--main-color);
-    width: 48%;
+    width: 215px;
     height: 350px;
     float: right;
     border-radius: 15px;
@@ -156,4 +156,28 @@ body {
 .button-free-trial:hover {
     background-color: var(--secondary-color);
     color: black;
+}
+
+@media (max-width: 1000px) {
+    body{
+        width: 450px;
+        margin-left: calc(50% - 225px);
+    }
+    
+    .main-nav {
+        width: 350px;
+    }
+    .main-header{
+        width: 450px;
+    }
+    .right-section {
+        display: block;
+        float: none;
+        width: 450px;
+    }
+    .left-section {
+        display: block;
+        float: none;
+        width: 450px;
+    }
 }
